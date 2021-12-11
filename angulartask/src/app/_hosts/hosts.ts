@@ -4,7 +4,8 @@ var Backend='';
 
  if(host == 'localhost'){
  	Backend = "http://"+host+":3000/";
- } else{
+ }
+  else{
     Backend = "http://"+host+":3000/";
  }
  console.log(Backend);
