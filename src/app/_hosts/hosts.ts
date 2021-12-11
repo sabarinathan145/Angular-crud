@@ -6,7 +6,7 @@ var Backend='';
  	Backend = "http://"+host+":3000/";
  }
   else{
-    Backend = "http://"+host+":3000/";
+    Backend = "https://ng-back.herokuapp.com/";
  }
  console.log(Backend);
 export var BackendHost = Backend;
